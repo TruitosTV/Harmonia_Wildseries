@@ -2,11 +2,6 @@ const express = require("express");
 
 const router = express.Router();
 
-
-const { wildSeries } = require("../../controllers/sayActions");
-
-router.get("/", wildSeries);
-
 /* ************************************************************************* */
 // Import And Use Routers Here
 /* ************************************************************************* */
